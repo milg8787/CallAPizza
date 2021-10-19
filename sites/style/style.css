@@ -1,0 +1,129 @@
+body {
+    background-image: url("../images/background.jpg");
+    background-color: #cccccc;
+}
+
+
+/* ----------- Content section in the middle of the website -----------*/
+
+.content {
+    max-width: 1000px;
+    height: 100vh;
+    margin: auto;
+    background: linear-gradient(-45deg, #450303, #7a0d0d, #cf5d17, #e09812);
+    border-left: 5px double yellow;
+    border-right: 5px double yellow;
+}
+
+
+/* ----------- Navigation bar CSS -----------*/
+
+nav {
+    padding: 15px;
+    text-align: center;
+    background-color: rgb(51, 51, 51);
+    font-family: Arial, Helvetica, sans-serif;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+    margin-bottom: 30px;
+}
+
+.linkMenu {
+    transition: 0.4s;
+    color: #ffffff;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 0 10px;
+    margin: 0 10px;
+}
+
+.linkMenu:hover {
+    background-color: #fcedd8;
+    color: #cf5d17;
+    padding: 15px 25px;
+}
+
+
+/* ----------- Logo section ----------- */
+
+.logo {
+    font-size: 5rem;
+    text-align: center;
+    height: 15vh;
+    line-height: 10vh;
+    color: #fcedd8;
+    font-family: 'Niconne', cursive;
+    font-weight: 700;
+    text-shadow: 5px 5px 0px #eb452b, 10px 10px 0px #efa032, 15px 15px 0px #e09812, 20px 20px 0px #cf5d17, 25px 25px 0px #7a0d0d, 30px 30px 0px #450303
+}
+
+h3 {
+    margin: 1%;
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+p {
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    font-size: 20px;
+    margin-left: 40px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    text-decoration: none;
+    color: black;
+}
+
+table {
+    width: 100%;
+}
+
+td {
+    vertical-align: middle;
+    text-align: center;
+}
+
+td a,
+td input,
+td img {
+    vertical-align: middle;
+    display: inline-block;
+}
+
+
+/* ----------- ProductTeaser on main page ----------- */
+
+.productTeaser {
+    width: 300px;
+    height: 400px;
+    background-color: white;
+    box-shadow: 5px 5px 5px #111;
+    margin: auto;
+    transition: 0.7s ease;
+}
+
+.productTeaser:hover {
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+    transition: 0.7s ease;
+}
+
+.productTeaser a:hover {
+    background-position: 0 100%;
+}
+
+.featuredImages {
+    width: 300px;
+    height: 300px;
+    margin-bottom: 10px;
+}
+
+.productTeaserCaption {
+    margin-left: 10px;
+}
