@@ -1,6 +1,7 @@
-body {
+html body {
     background-image: url("../images/background.jpg");
     background-color: #cccccc;
+    height: 100%;
 }
 
 
@@ -8,8 +9,9 @@ body {
 
 .content {
     max-width: 1000px;
-    height: 100vh;
     margin: auto;
+    display: block;
+    overflow: auto;
     background: linear-gradient(-45deg, #450303, #7a0d0d, #cf5d17, #e09812);
     border-left: 5px double yellow;
     border-right: 5px double yellow;
@@ -40,6 +42,11 @@ nav {
     background-color: #fcedd8;
     color: #cf5d17;
     padding: 15px 25px;
+}
+
+#cart {
+    height: 50px;
+    width: 50px;
 }
 
 
@@ -81,6 +88,8 @@ a:hover {
 
 table {
     width: 100%;
+    border-collapse: separate;
+    border-spacing: 1em;
 }
 
 td {
